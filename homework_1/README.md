@@ -1,6 +1,13 @@
 # homework_1
 
-A new Flutter project.
+Actual code is found in [_lib/main.dart_](https://github.com/jkerola/mobile-computing-2024/blob/main/homework_1/lib/main.dart)
+
+Demonstrates:
+
+- images
+- fonts
+- scrolling
+- interactivity
 
 ## Getting Started
 

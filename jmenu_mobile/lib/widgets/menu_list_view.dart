@@ -37,6 +37,9 @@ class MenuListView extends StatelessWidget {
               var items = snapshot.data![index];
               List<Widget> children = [];
               for (var item in items) {
+                if (item.name.isEmpty) {
+                  continue;
+                }
                 var child = Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
